@@ -10,11 +10,11 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/getkin/kin-openapi/openapi3"
-	"github.com/getkin/kin-openapi/openapi3filter"
-	"github.com/getkin/kin-openapi/routers"
-	"github.com/getkin/kin-openapi/routers/gorillamux"
-	"github.com/getkin/kin-openapi/routers/legacy"
+	"github.com/gsoc2/kin-openapi/openapi3"
+	"github.com/gsoc2/kin-openapi/openapi3filter"
+	"github.com/gsoc2/kin-openapi/routers"
+	"github.com/gsoc2/kin-openapi/routers/gorillamux"
+	"github.com/gsoc2/kin-openapi/routers/legacy"
 )
 
 func TestIssue356(t *testing.T) {

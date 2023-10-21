@@ -10,8 +10,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/getkin/kin-openapi/openapi3"
-	legacyrouter "github.com/getkin/kin-openapi/routers/legacy"
+	"github.com/gsoc2/kin-openapi/openapi3"
+	legacyrouter "github.com/gsoc2/kin-openapi/routers/legacy"
 )
 
 func TestValidatingRequestParameterAndSetDefault(t *testing.T) {

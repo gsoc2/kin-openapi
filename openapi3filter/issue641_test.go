@@ -7,9 +7,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/getkin/kin-openapi/openapi3"
-	"github.com/getkin/kin-openapi/openapi3filter"
-	"github.com/getkin/kin-openapi/routers/gorillamux"
+	"github.com/gsoc2/kin-openapi/openapi3"
+	"github.com/gsoc2/kin-openapi/openapi3filter"
+	"github.com/gsoc2/kin-openapi/routers/gorillamux"
 )
 
 func TestIssue641(t *testing.T) {
